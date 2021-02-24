@@ -3,6 +3,8 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+require('dotenv').config();
+
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -97,7 +99,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set true to show this section, defaults to false
   schools: [
     {
       schoolName: "National Institute of Information Technology",
@@ -118,8 +120,7 @@ const educationInfo = {
         "Ranked first with 60% in the program. Took courses about Application development, Web Tech., Operating Systems, ...",
       descBullets: ["Bhavnagar, India"]
     }
-  ],
-  display: true
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience

@@ -19,7 +19,7 @@ export default function EducationCard({school}) {
   return (
     <div>
       <Fade left duration={1000}>
-        <div className="education-card">
+        <div className="education-card" id="education">
           <div className="education-card-left">
             <img
               crossOrigin={"anonymous"}

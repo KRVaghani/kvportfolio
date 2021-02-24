@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Snowfall from 'react-snowfall'
+
 import * as serviceWorker from "./serviceWorker";
+
 
 ReactDOM.render(<div><Snowfall snowflakeCount={45}  style={{ color: '#00bcd4' }}/><App /></div>, document.getElementById("root"));
 
